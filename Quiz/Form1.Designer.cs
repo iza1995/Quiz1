@@ -100,9 +100,7 @@
             this.button5.TabIndex = 6;
             this.button5.Text = "Kolejne pytanie";
             this.button5.UseVisualStyleBackColor = true;
-
             this.button5.Click += new System.EventHandler(this.button5_Click);
-
             // 
             // label2
             // 
@@ -111,7 +109,6 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 7;
-     
             // 
             // label3
             // 
@@ -133,7 +130,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(149, 117);
+            this.pictureBox1.Location = new System.Drawing.Point(132, 122);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(413, 109);
             this.pictureBox1.TabIndex = 10;
