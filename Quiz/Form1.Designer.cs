@@ -54,7 +54,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(46, 292);
+            this.button1.Location = new System.Drawing.Point(50, 426);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(266, 156);
             this.button1.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(452, 292);
+            this.button2.Location = new System.Drawing.Point(452, 426);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(266, 156);
             this.button2.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(46, 454);
+            this.button3.Location = new System.Drawing.Point(50, 622);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(266, 156);
             this.button3.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(452, 454);
+            this.button4.Location = new System.Drawing.Point(452, 622);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(266, 156);
             this.button4.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(181, 622);
+            this.button5.Location = new System.Drawing.Point(211, 784);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(337, 23);
             this.button5.TabIndex = 6;
@@ -130,9 +130,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(155, 122);
+            this.pictureBox1.Location = new System.Drawing.Point(153, 124);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(413, 109);
+            this.pictureBox1.Size = new System.Drawing.Size(427, 281);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
@@ -149,7 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 661);
+            this.ClientSize = new System.Drawing.Size(765, 831);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
