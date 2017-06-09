@@ -88,7 +88,7 @@ namespace Quiz
             {
                 randomNumber = random.Next(0, liczbaPytan);
 
-                if (pytaniaOdp[randomNumber] == false && iloscOdpowiedzianych <= liczbaPytan)
+                if (pytaniaOdp[randomNumber] == false )
                 {
                     label1.Text = pytania[randomNumber];
                     button1.Text = odpowiedziA[randomNumber];
@@ -110,7 +110,7 @@ namespace Quiz
                 {
                     button.BackColor = Color.Green;
                     iloscPoprawnych++;
-
+                    label5.Text = iloscPoprawnych.ToString();
                 }
                 else
                 {
@@ -122,10 +122,11 @@ namespace Quiz
             }
 
             {
-                if (button == button2 && poprawnaOdpowiedz[1] == "B")
+                if (button == button2 && poprawnaOdpowiedz[randomNumber] == "B")
                 {
                     button.BackColor = Color.Green;
                     iloscPoprawnych++;
+                    label5.Text = iloscPoprawnych.ToString();
 
                 }
                 else
@@ -142,6 +143,7 @@ namespace Quiz
                 {
                     button.BackColor = Color.Green;
                     iloscPoprawnych++;
+                    label5.Text = iloscPoprawnych.ToString();
 
                 }
                 else
@@ -158,6 +160,7 @@ namespace Quiz
                 {
                     button.BackColor = Color.Green;
                     iloscPoprawnych++;
+                    label5.Text = iloscPoprawnych.ToString();
 
                 }
                 else
@@ -210,6 +213,17 @@ namespace Quiz
                 button3.Enabled = true;
                 button4.Enabled = true;
                 button5.Visible = false;
+            }
+
+            else
+            {
+
+                End o = new End(iloscPoprawnych, liczbaPytan);
+                this.Hide();
+                o.ShowDialog();
+                this.Close();
+                this.Dispose();
+
             }
         }
 

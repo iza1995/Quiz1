@@ -18,13 +18,17 @@ namespace Quiz
         }
         private void koniec()
         {
-            
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-      
+            Form1 o = new Form1();
+            this.Hide();
+            o.ShowDialog();
+            this.Close();
+            this.Dispose();
+
         }
     }
 }
